@@ -31,11 +31,9 @@ public class ArrayOperator {
      */
     public int getSum(int[] array){
         int result = 0;
-        if(array.length>0){
             for (int num: array) {
                 result += num;
             }
-        }
         return result;
     }
 
